@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>个人简历</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<!-- css3滑过动画-->
+<link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<!--文字发光特效-->
+<link rel="stylesheet" type="text/css" href="css/reset.min.css" />
+<!-- 时钟-->
+<!-- 发光css-->
+</head>
+<body>
+<!-- fixed部分-->
+	<header id="header-text" class="animated rollIn"> 
+		<span>个人简历</span>
+		<span>前端工程师</span>
+	</header>
+<ul id="menu">
+	<li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+	<li data-menuanchor="page2"><a href="#page2">经历</a></li>
+	<li data-menuanchor="page3"><a href="#page3">自我评价</a></li>
+	<li data-menuanchor="page4"><a href="#page4">Web</a></li>
+</ul>
+<div id="dowebok">
+	<!--第一屏-->
+	<div class="section">
+		<canvas id="c" width="600" height="400" ></canvas>	
+		<div  class="aside animated fadeInRight" >
+			<img class="animated fadeInLeft"  src="images/heroes-2.png"> 	
+			<p class="animated fadeInRight">张翔</p>
+			<p class="animated fadeInUpBig">25岁</p>
+			<p class="animated rollIn">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵</p>
+			<p class="animated fadeInUpBig">18563946903@163.com(Tel)</p>
+		</div>
+		<div class="container animated rubberBand">
+			<div class="content-skill">
+		    	<div class="col">
+			        <ul id="skill">
+			        	<p>技能</p>
+				        <li><span class="expand html5"></span><em>HTML 5</em></li>
+				        <li><span class="expand css3"></span><em>CSS 3</em></li>
+				        <li><span class="expand jquery"></span><em>jQuery</em></li>
+				        <li><span class="expand photoshop"></span><em>Photoshop</em></li>
+				        <li><span class="expand dreamweaver"></span><em>Dreamweaver</em></li>
+		     	   </ul>
+	        	</div>
+	    	</div>
+		</div>
+	</div>
+	<!--第二屏-->	
+	<div class="section">       
+			
+		<div class="wrapper">
+		  <div class="content" >hello world</div>
+		 </div>
+		<p>前端的学习需要持之以恒，知识深度与广度都很重要</p>
+			<div class="section-img">
+				<div  class="box">
+				    <img src="images/heroes-1.png" >
+				    <div class="box-content">
+				        <h3 class="title">学校</h3>
+				        <p class="description">
+				        	2014年毕业于青岛恒星学院
+				        </p>
+
+				        <a class="read" href="#">Read More</a>
+				    </div>
+				</div>	
+				<div   class="box">
+				    <img src="images/heroes-3.png" >
+				    <div class="box-content">
+				        <h3 class="title">2015.3-2016.1</h3>
+				        <p class="description">
+				         	苏州朗威电子，设计部
+				        </p>
+				        <a class="read" href="#">Read More</a>
+				    </div>
+				</div>				
+				<div  class="box">
+				    <img src="images/heroes-4.png" >
+				    <div class="box-content">
+				        <h3 class="title">2016.3-2016.12</h3>
+				        <p class="description">
+				           杭州淘服网络，运营部
+				        </p>
+				        <a class="read" href="#">Read More</a>
+				    </div>
+				</div>			
+				<div  class="box">
+				    <img src="images/heroes-5.png" >
+				    <div class="box-content">
+				        <h3 class="title">2016年开始自学前端</h3>
+				        <p class="description">
+				           百度前端学院，慕课网，极客学院，黑马
+				        </p>
+				        <a class="read" href="#">Read More</a>
+				    </div>
+				</div>	
+			</div>							
+	</div>
+	<!-- 第三屏 -->
+		<div class="section">
+			<p class="article">自我评价</p> 
+			<p>工作了两年多，从机械行业到电子商务，前两份工作都做得不错，自己做事也相对认真，领导都很信任我认可我，当时机械行业的领导出差会带着同是应届生的我，而不是其他人。电商领导在我辞职时说我认真细心，知错就改，工作中有些复杂麻烦的任务一般会交给我去做，自己完成的也不错。什么才是适合自己的？在工作通过不断的实践对自己更多的了解，发现自己更喜欢的是深度而不是广度，性格偏内向(内向外向不是表现出来的状态，是恢复精力的方式不同，外向的人可以通过外界的刺激获得能量，内向的人不行)。<br>So? 
+			Just do IT
+			<br> 希望未来三年能够做到精通前端，懂视觉，懂交互，懂后端。
+		</div>
+	<!-- 第四屏 -->	
+		<div class="section">
+			<p class="article-s">专业技能</p>
+			<p>使用div+css进行网页排版，将设计稿转化成网页，解决常见浏览器兼容问题。<br>
+				熟悉JavaScript，理解闭包，作用域等，熟悉DOM操作，使用jquery实现开发<br>
+				熟悉掌握Sublime、Dreamweaver、WebStorm，使用Chrome，FireBug、IE调试页面<br>
+				熟悉HTML5、CSS3标签，能够合理使用标签元素，了解SEO基本概念，熟悉响应式设计。</p>
+
+		</div>
+	</div>
+</div>
+
+
+<!--贪吃蛇-->
+<script type="text/javascript" src="Snake_files/A-.js"></script>
+<script type="text/javascript" src="Snake_files/snake.js"></script>
+<!-- 滚屏-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		//sectionsColor: ['#f6ffdf', '#4BBFC3', '#7BAABE', '#f90'],
+		anchors: ['page1', 'page2', 'page3', 'page4'],
+		menu: '#menu'
+	});
+		if($.browser.msie && $.browser.version < 10){
+		$('.dowebok-explain').show();
+	}
+
+	var $animate = $('#animate');
+	var $btn = $('.tabCnt').find('li');
+	$btn.click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+		$animate.removeClass().addClass($(this).text() + ' animated infinite');
+		setTimeout(removeClass, 1000);
+	});
+
+	function removeClass(){
+		$animate.removeClass();
+	}
+
+	var $tabNavItem = $('.tabNav').find('a');
+	var $tabPane = $('.tabPane');
+	$tabNavItem.each(function(i){
+		$(this).click(function(){
+			$(this).parent().addClass('active').siblings().removeClass('active');
+			$tabPane.eq(i).addClass('active').siblings().removeClass('active');
+			return false;
+		});
+	});
+});
+</script>
+
+
+<!--文字发光特效-->
+
+<script type="text/javascript">
+	'use strict';
+	var container = document.querySelector('.content');
+	var content = container.innerText;
+
+	function formatContent(content, container) {
+	  var contentArray = content.split(' ');
+	  var formattedContent = document.createElement('div');
+	  contentArray.map(function (word) {
+		formattedContent.appendChild(createWord(word));
+	  });
+	  //console.log(contentArray);
+
+	  container.replaceChild(formattedContent, container.firstChild);
+	};
+
+	function createWord(characters) {
+	  var word = document.createElement('div');
+	  var wordArray = characters.split('');
+	  wordArray.map(function (char) {
+		word.appendChild(formatCharacter(char));
+	  });
+	  word.appendChild(formatCharacter('&nbsp;'));
+	  return word;
+	}
+
+	function formatCharacter(text) {
+	  var text = text === ' ' ? '&nbsp;' : text;
+	  var character = document.createElement('span');
+	  character.innerHTML = text;
+	  return character;
+	}
+
+	formatContent(content, container);
+</script>
+
+</body>
+
+</html>
